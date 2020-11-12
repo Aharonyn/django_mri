@@ -7,7 +7,7 @@ from django_mri.models.nifti import NIfTI
 from django_mri.models.scan import Scan
 from django_mri.models.session import Session
 from django_mri.serializers.sequence_type import SequenceTypeSerializer
-from django_mri.utils.utils import get_subject_model, get_group_model
+from django_mri.utils.utils import get_group_model
 from rest_framework import serializers
 
 
